@@ -11,11 +11,11 @@ Gem::Specification.new do |s|
   s.author      = 'Thomas von Deyen'
   s.email       = 'tvd@magiclabs.de'
   s.homepage    = 'https://github.com/tvdeyen/capistrano-maintenance'
-  s.summary     = %q{Offers deploy:web:disable and deploy:web:enable tasks for Capistrano.}
+  s.summary     = %q{Offers deploy:web:disable and deploy:web:enable tasks for Capistrano 3.}
   s.description = %q{The deploy:web tasks where removed from Capistrano core. This extension brings them back.}
 
   s.files         = `git ls-files`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_dependency 'capistrano', ['>= 2.0.0']
+  s.add_dependency 'capistrano', ['>= 3.0.0']
 end

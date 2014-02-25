@@ -1,4 +1,4 @@
-require 'capistrano'
+require 'capistrano/all'
 
 module Capistrano::Maintenance
 
